@@ -12,6 +12,9 @@ Build a bluettoth controlled car with arduino and a cellphone
 - connectors 
 - screws
 
+# :alembic: See the project step by step
+https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/Steps.md
+
 # :trophy: Credits
 1. https://github.com/Thiagodcfarias
 2. Frederik Hauke for Arduino Bluetooth Terminal app
