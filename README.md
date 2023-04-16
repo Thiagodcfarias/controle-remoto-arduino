@@ -14,4 +14,5 @@ Build a bluettoth controlled car with arduino and a cellphone
 
 # :trophy: Credits
 1. https://github.com/Thiagodcfarias
-2. https://www.roboindia.com/ for HC-05 tutorials
+2. Frederik Hauke for Arduino Bluetooth Terminal app
+3. https://roboindia.com/ for tutorials of HC-05 module
