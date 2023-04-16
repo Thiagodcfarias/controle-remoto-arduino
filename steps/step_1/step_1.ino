@@ -1,6 +1,3 @@
-//Robo India tutorial on Controlling Arduino with Android
-//https://www.roboindia.com/tutorials/
-
 String BT_input;                          // to store input character received via BT.
 int LED = 2;                              // device to control
 
