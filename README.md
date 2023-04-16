@@ -1,7 +1,8 @@
 # :dart: Objective
 Build a bluettoth controlled car with arduino and a cellphone
 # :video_game: User diagram
-![](https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/assets/User%20fluxogram.jpg)
+<img src="https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/assets/User%20fluxogram.jpg" width="600">
+
 # :electric_plug: Components 
 - 1 Arduino Uno
 - 1 4WD Robot Car Chassis Kit
