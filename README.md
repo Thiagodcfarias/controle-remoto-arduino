@@ -11,3 +11,7 @@ Build a bluettoth controlled car with arduino and a cellphone
 - 1 Bluetooth HC-05
 - connectors 
 - screws
+
+# :trophy: Credits
+1. https://github.com/Thiagodcfarias
+2. https://www.roboindia.com/ for HC-05 tutorials
