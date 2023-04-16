@@ -1,6 +1,6 @@
-# Bluetooth controlled car project with arduino
-
-## :electric_plug: Components 
+# :dart: Objective
+Build a bluettoth controlled car with arduino and a cellphone
+# :electric_plug: Components 
 - 1 Arduino Uno
 - 1 4WD Robot Car Chassis Kit
 - 4 DC motors 3-6v
