@@ -8,7 +8,7 @@ to understand how HC-05 works (https://roboindia.com/tutorials/bluetooth-termina
 So, this was the result: https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/step_1/step_1.ino
 
 ### Protoboard View
-<img src="https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/step_1/step_1.png" width="300">
+<img src="https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/step_1/step_1.png" width="200">
 
 ## Step 2: Powering Arduino With a Battery
 
@@ -22,4 +22,4 @@ I used the blink code I found that i found in example/01. Basics/ to see if ever
 I read this tutorial (https://blog.eletrogate.com/guia-definitivo-de-uso-da-ponte-h-l298n/) to understand how H L298N works. So, i used 6v powering scheme and wrote a file (https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/step_3/step_3.ino) to know if everything is going right 
 
 ### Protoboard View
-<img src="https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/step_3/step_3.png" width="300">
+<img src="https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/step_3/step_3.png" width="350">
