@@ -18,5 +18,9 @@ https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/Steps.
 
 # :trophy: Credits
 1. https://github.com/Thiagodcfarias
-2. Frederik Hauke for Arduino Bluetooth Terminal app
-3. https://roboindia.com/ for tutorials of HC-05 module
+
+# :owl: References
+1. Frederik Hauke for Arduino Bluetooth Terminal app
+2. roboindia.com
+3. forum.arduino.cc
+4. blog.eletrogate.com

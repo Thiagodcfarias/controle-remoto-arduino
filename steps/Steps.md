@@ -16,3 +16,10 @@ I used the blink code I found that i found in example/01. Basics/ to see if ever
 
 ### Protoboard View
 <img src="https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/step_2/step_2.png" width="300">
+
+## Step 3: Communicating between the motors and arduino using H L298N
+
+I read this tutorial (https://blog.eletrogate.com/guia-definitivo-de-uso-da-ponte-h-l298n/) to understand how H L298N works. So, i used 6v powering scheme and wrote a file (https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/step_3/step_3.ino) to know if everything is going right 
+
+### Protoboard View
+<img src="https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/step_3/step_3.png" width="300">
