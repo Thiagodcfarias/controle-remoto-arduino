@@ -3,7 +3,7 @@
 ## Step 1: Communicating between the cell phone and the arduino
 
 I used the tutorial from roboindia.com (https://roboindia.com/tutorials/bluetooth-terminal-android/)
-to understand how HC-05 works (https://roboindia.com/tutorials/bluetooth-terminal-android/) and used this app as my phone interface to communicate with HC-05 (https://play.google.com/store/apps/details?id=com.frederikhauke.ArduTooth)
+to understand how HC-05 works and used this app as my phone interface to communicate with HC-05 (https://play.google.com/store/apps/details?id=com.frederikhauke.ArduTooth)
 
 So, this was the result: https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/step_1/step_1.ino
 
@@ -23,3 +23,11 @@ I read this tutorial (https://blog.eletrogate.com/guia-definitivo-de-uso-da-pont
 
 ### Protoboard View
 <img src="https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/step_3/step_3.png" width="350">
+
+## Step 4: Using 2 H L298N
+This is a complex step, now we want to test the schematic. I used one H L298N for the left side and other for right side of the car. Set the green wire for the positive and yellow for the negative, as you can see below.
+
+Here i used this page (https://blog.eletrogate.com/guia-definitivo-de-uso-da-ponte-h-l298n/). However i had to add a another battery of 9V since the voltage in arduino has been too low, so the digital pins was not working properly
+
+### Protoboard View
+<img src="https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/step_4/step_4.png" width="400">
