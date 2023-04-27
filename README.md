@@ -6,9 +6,10 @@ Build a bluettoth controlled car with arduino and a cellphone
 # :electric_plug: Components 
 - 1 Arduino Uno
 - 1 4WD Robot Car Chassis Kit
-- 4 DC motors 3-6v
+- 4 DC motors
 - 2 H L298N
-- 1 AA battery  4 Slot
+- 4 AA battery 4 Slots
+- 1 battery 9V
 - 1 Bluetooth HC-05
 - connectors 
 - screws
@@ -18,6 +19,7 @@ https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/Steps.
 
 # :trophy: Credits
 1. https://github.com/Thiagodcfarias
+2. Catarina Siqueira Bueno for listening to my tests and motivating me to finish the project
 
 # :owl: References
 1. Frederik Hauke for Arduino Bluetooth Terminal app
