@@ -24,10 +24,8 @@ I read this tutorial (https://blog.eletrogate.com/guia-definitivo-de-uso-da-pont
 ### Protoboard View
 <img src="https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/step_3/step_3.png" width="350">
 
-## Step 4: Using 2 H L298N
-This is a complex step, now we want to test the schematic. I used one H L298N for the left side and other for right side of the car. Set the green wire for the positive and yellow for the negative, as you can see below.
-
-Here i used this page (https://blog.eletrogate.com/guia-definitivo-de-uso-da-ponte-h-l298n/). However i had to add a another battery of 9V since the voltage in arduino has been too low, so the digital pins was not working properly.
+## Step 4: Using H L298N
+Now we want to put everything together. First of all, i found out that powering with just 6V was not enought, so i switched to 2 9v batteries, one for H L298N and other for the others components
 
 The code file is here (https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/step_4/step_4.ino)
 
