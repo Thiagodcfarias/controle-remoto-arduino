@@ -1,26 +1,91 @@
+String input;
+int M1_A = 12;
+int M2_A = 11;
+int M1_B = 10;
+int M2_B = 9;
+
 void setup() {
-  // right front wheel
-  pinMode(2, OUTPUT);
-  pinMode(3, OUTPUT);
-  // right rear wheel
-  pinMode(4, OUTPUT);
-  pinMode(5, OUTPUT);
-  // left rear wheel
-  pinMode(8, OUTPUT);
-  pinMode(9, OUTPUT);
-  // left front wheel
-  pinMode(10, OUTPUT);
-  pinMode(11, OUTPUT);
+  // right side
+  pinMode(M1_A, OUTPUT);
+  pinMode(M2_A, OUTPUT);
+  // left side
+  pinMode(M1_B, OUTPUT);
+  pinMode(M2_B, OUTPUT);
+
+  Serial.begin(9600);
+  while (!Serial) 
+  {
+     // wait for serial port to connect. Needed for native USB port only
+  }
 }
 
 void loop() {
-  digitalWrite(2, HIGH);
-  digitalWrite(3, LOW);
-  digitalWrite(4, HIGH);
-  digitalWrite(5, LOW);
-  digitalWrite(8, HIGH);
-  digitalWrite(9, LOW);
-  digitalWrite(10, HIGH);
-  digitalWrite(11, LOW);
-  delay(1000);  
+  
+  if (Serial.available())
+    {   
+        input = Serial.read();   // read input string from bluetooth
+        Serial.println(input);
+
+        if(input == "70") {
+          Serial.println("foward");
+          foward();
+        }
+        else if(input == "66"){
+          Serial.println("back");
+          back();
+        }
+        else if(input == "76"){
+          Serial.println("left");
+          rotateLeft();
+        }
+        else if(input == "82"){
+          Serial.println("right");
+          rotateRight();
+        }
+        else {
+          Serial.println(input);
+          stop();
+        }
+
+        
+    }
+  else{
+    Serial.println("NOT AVAILABLE");
+  }
+
+}
+
+int foward(){
+  digitalWrite(M1_A, HIGH);
+  digitalWrite(M2_A, LOW);
+  digitalWrite(M1_B, HIGH);
+  digitalWrite(M2_B, LOW);
+}
+
+int back(){
+  digitalWrite(M1_A, LOW);
+  digitalWrite(M2_A, HIGH);
+  digitalWrite(M1_B, LOW);
+  digitalWrite(M2_B, HIGH);
+}
+
+int rotateRight(){
+  digitalWrite(M1_A, LOW);
+  digitalWrite(M2_A, LOW);
+  digitalWrite(M1_B, HIGH);
+  digitalWrite(M2_B, LOW);
+}
+
+int rotateLeft(){
+  digitalWrite(M1_A, HIGH);
+  digitalWrite(M2_A, LOW);
+  digitalWrite(M1_B, LOW);
+  digitalWrite(M2_B, LOW);
+}
+
+int stop(){
+  digitalWrite(M1_A, LOW);
+  digitalWrite(M2_A, LOW);
+  digitalWrite(M1_B, LOW);
+  digitalWrite(M2_B, LOW);
 }
