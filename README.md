@@ -1,33 +1,27 @@
-# This file is a step by step documentation of how I did everything
+# :dart: Objective
+Build a bluettoth controlled car with arduino and a cellphone
+# :video_game: User diagram
+<img src="https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/assets/User%20fluxogram.jpg" width="600">
 
-## Step 1: Communicating between the cell phone and the arduino
+# :electric_plug: Components 
+- 1 Arduino Uno
+- 1 4WD Robot Car Chassis Kit
+- 4 DC motors
+- 1 H L298N
+- 2 battery 9V
+- 1 Bluetooth HC-05
+- connectors 
+- screws
 
-I used the tutorial from roboindia.com (https://roboindia.com/tutorials/bluetooth-terminal-android/)
-to understand how HC-05 works and used this app as my phone interface to communicate with HC-05 (https://play.google.com/store/apps/details?id=com.frederikhauke.ArduTooth)
+# :alembic: See the project step by step
+https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/Steps.md
 
-So, this was the result: https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/step_1/step_1.ino
+# :trophy: Credits
+1. https://github.com/Thiagodcfarias
+2. Catarina Siqueira Bueno for listening to my tests and motivating me to finish the project
 
-### Protoboard View
-<img src="https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/step_1/step_1.png" width="200">
-
-## Step 2: Powering Arduino With a Battery
-
-I used the blink code I found that i found in example/01. Basics/ to see if everything is ok by seeing the led. However, my battery is 6V and the arduino power is 5V, searching the internet i found this https://forum.arduino.cc/t/how-to-reduce-6v-to-5v-dc/1051627 and used a diode to reduce the voltage. You can see the breadboard preview below
-
-### Protoboard View
-<img src="https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/step_2/step_2.png" width="300">
-
-## Step 3: Communicating between the motors and arduino using H L298N
-
-I read this tutorial (https://blog.eletrogate.com/guia-definitivo-de-uso-da-ponte-h-l298n/) to understand how H L298N works. So, i used 6v powering scheme and wrote a file (https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/step_3/step_3.ino) to know if everything is going right 
-
-### Protoboard View
-<img src="https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/step_3/step_3.png" width="350">
-
-## Step 4: Using H L298N
-Now we want to put everything together. First of all, i found out that powering with just 6V was not enought, so i switched to 2 9v batteries, one for H L298N and other for the others components
-
-The code file is here (https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/step_4/step_4.ino)
-
-### Protoboard View
-<img src="https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/step_4/step_4.png" width="400">
+# :owl: References
+1. Frederik Hauke for Arduino Bluetooth Terminal app
+2. roboindia.com
+3. forum.arduino.cc
+4. blog.eletrogate.com
