@@ -1,5 +1,5 @@
 # :dart: Objective
-Build a bluettoth controlled car with arduino and a cellphone
+Build a bluetooth controlled car with arduino and a cellphone
 # :video_game: User diagram
 <img src="https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/assets/User%20fluxogram.jpg" width="600">
 
