@@ -2,8 +2,8 @@
 
 ## Step 1: Communicating between the cell phone and the arduino
 
-I used the tutorial from roboindia.com (https://roboindia.com/tutorials/bluetooth-terminal-android/)
-to understand how HC-05 works and used this app as my phone interface to communicate with HC-05 (https://play.google.com/store/apps/details?id=com.frederikhauke.ArduTooth)
+I used the tutorial from [roboindia.com](https://roboindia.com/tutorials/bluetooth-terminal-android/)
+to understand how HC-05 works and used [this app](https://play.google.com/store/apps/details?id=com.frederikhauke.ArduTooth) on my phone to communicate with bluetooth module
 
 So, this was the result: https://github.com/Thiagodcfarias/controle-remoto-arduino/blob/main/steps/step_1/step_1.ino
 
